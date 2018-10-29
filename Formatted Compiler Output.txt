@@ -1,0 +1,11 @@
+C:\Users\NANDAN\Desktop\Cube\Camera.o	In function `Camera::setCamera_x(float)':
+23		C:\Users\NANDAN\Desktop\Cube\Camera.cpp	undefined reference to `Camera::Camera_x'
+C:\Users\NANDAN\Desktop\Cube\Camera.o	In function `Camera::setCamera_z(float)':
+27		C:\Users\NANDAN\Desktop\Cube\Camera.cpp	undefined reference to `Camera::Camera_z'
+C:\Users\NANDAN\Desktop\Cube\Sphere.o	In function `Sphere::Sphere()':
+8		C:\Users\NANDAN\Desktop\Cube\Sphere.cpp	undefined reference to `Camera::Camera_x'
+C:\Users\NANDAN\Desktop\Cube\Surface.o	In function `Surface::Surface()':
+7		C:\Users\NANDAN\Desktop\Cube\Surface.cpp	undefined reference to `Camera::getCamera_z()'
+7		C:\Users\NANDAN\Desktop\Cube\Surface.cpp	undefined reference to `Camera::getCamera_x()'
+C:\Users\NANDAN\Desktop\Cube\collect2.exe	[Error] ld returned 1 exit status
+25		C:\Users\NANDAN\Desktop\Cube\Makefile.win	recipe for target 'Project1.exe' failed
